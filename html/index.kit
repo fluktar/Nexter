@@ -11,8 +11,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="/dist/css/main.min.css" />
   </head>
-  <body>
-    @@include('_footer.kit')
+  <body class="container">
+    @@include('_sidebar.kit') @@include('_header.kit')
+    <div class="realtors">top 3 realtors</div>
+    @@include('_features.kit') @@include('_story.kit') @@include('_homes.kit')
+    @@include('_gallery.kit') @@include('_footer.kit')
     <script src="/dist/js/script.min.js"></script>
   </body>
 </html>
